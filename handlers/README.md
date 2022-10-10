@@ -1,4 +1,4 @@
-### Botz By [@PredatorHackerzZ](https://t.me/TheTeleRoid)
+
 
 # Bots new Version
 
