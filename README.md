@@ -66,3 +66,7 @@ banned_users - Get All Banned Users [Owner Only]
 <a href="https://twitter.com/Cod3sofAbhi"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
 <a href="https://facebook.com/Abhishek.modi.58173000"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 <a href="https://www.instagram.com/Cod3sofAbhi"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
+
+# Credits 
+- [PredatorHackerzZ](https://github.com/PredatorHackerzZ) Developer 
+- [GreyMatter's](https://github.com/Greymattersbot) for adding Koyeb & web support.
