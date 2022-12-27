@@ -34,6 +34,10 @@
 ### Deploy Now:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Greymattersbot/TG-FileStore)
 
+## Deploy To Koyeb:
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Greymattersbot/TG-FileStore&branch=main&name=TGStorebot)
+
+
 ## Commands:
 ```
 start - start the bot
