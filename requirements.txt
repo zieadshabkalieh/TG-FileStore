@@ -69,7 +69,7 @@ pycryptodome==3.10.1
 pydriveziead @ git+https://github.com/zieadshabkalieh/zieadshabkalieh-pydriveziead@5360754fc9370e979db35ecf4f568356daa127bd
 pydub==0.25.1
 pyglet==1.5.18
-PyMuPDF==1.18.13
+PyMuPDF
 pyparsing==3.0.7
 pyPdf==1.13
 PyPDF2==1.26.0
@@ -81,7 +81,7 @@ python-pptx==0.6.18
 python-telegram-bot==13.4.1
 pytz==2021.1
 PyYAML==6.0
-reportlab==3.5.67
+reportlab
 requests==2.22.0
 rfc3986==1.5.0
 rsa==4.8
