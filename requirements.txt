@@ -35,7 +35,7 @@ google-crc32c==1.3.0
 google-resumable-media==2.3.2
 googleapis-common-protos==1.55.0
 googletrans==3.1.0a0
-grpcio==1.44.0
+grpcio
 grpcio-status==1.44.0
 gTTS==2.2.3
 h11==0.9.0
@@ -49,7 +49,7 @@ hyperframe==5.2.0
 IMAPClient==2.1.0
 lxml==4.6.3
 msgpack==1.0.3
-numpy==1.20.2
+numpy
 oauth2client==4.1.3
 oauth2clientziead @ git+https://github.com/zieadshabkalieh/zieadshabkalieh-oauth2clientziead@b2949e4a6275a3e9979525ec1473752c110d7f96
 olefile==0.46
