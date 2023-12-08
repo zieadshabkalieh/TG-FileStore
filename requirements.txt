@@ -100,6 +100,6 @@ tqdm==4.60.0
 uritemplate==4.1.1
 xlrd==1.2.0
 XlsxWriter==1.4.1
-Flask==1.1.4
-Werkzeug==2.0.2
+Flask
+Werkzeug
 aiohttp
