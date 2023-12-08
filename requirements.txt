@@ -103,3 +103,4 @@ XlsxWriter==1.4.1
 Flask
 Werkzeug
 aiohttp
+gunicorn
