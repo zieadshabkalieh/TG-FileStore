@@ -44,7 +44,8 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 import json
-
+import time
+from telegram import Bot
 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -48355,4 +48356,19 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except TelegramError as e:
+        if isinstance(e, telegram.error.RetryAfter):
+            print(f"Caught RetryAfter exception: {e}")
+            time.sleep(e.retry_after)
+            # Retry the API call or take other actions as needed
+        elif isinstance(e, telegram.error.TimedOut):
+            print(f"Caught TimedOut exception: {e}")
+            # Handle TimedOut error, you may want to retry or take other actions
+        else:
+            print(f"Caught TelegramError: {e}")
+            # Handle other Telegram errors
+    except Exception as e:
+        print(f"Caught exception: {e}")
+        # Handle other unexpected errors
